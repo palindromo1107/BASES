@@ -1,5 +1,8 @@
 //EXPLICAÇÃO DAS ESTRUTURAS BASE E FUNCIONAMENTO
 
+> [!TIP]
+> recomendo começar pela classe secundaria para melhor comreenção
+
 // CLASSE PRINCIPAL
 ```
 /* classe
