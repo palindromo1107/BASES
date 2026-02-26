@@ -1,0 +1,53 @@
+Aqui está a lista atualizada com subconsultas:
+
+*Comandos Básicos*
+
+- *CREATE DATABASE*: Cria um novo banco de dados
+- *CREATE TABLE*: Cria uma nova tabela
+- *INSERT*: Insere dados em uma tabela
+- *SELECT*: Consulta dados de uma tabela
+- *UPDATE*: Atualiza dados em uma tabela
+- *DELETE*: Exclui dados de uma tabela
+- *DROP TABLE*: Exclui uma tabela
+- *DROP DATABASE*: Exclui um banco de dados
+
+*Comandos de Consulta*
+
+- *SELECT*: Consulta dados de uma tabela
+- *WHERE*: Filtra dados com base em condições
+- *AND*, *OR*: Combina condições
+- *ORDER BY*: Ordena resultados
+- *LIMIT*: Limita o número de resultados
+- *GROUP BY*: Agrupa resultados
+- *HAVING*: Filtra resultados agrupados
+- *SUBCONSULTA*: Consulta dentro de outra consulta
+- *IN*: Verifica se um valor está em uma lista de valores
+- *EXISTS*: Verifica se uma subconsulta retorna resultados
+- *ANY*, *ALL*: Compara um valor com todos os valores de uma subconsulta
+- *SOME*: Compara um valor com alguns valores de uma subconsulta
+
+*Comandos de Manipulação de Dados*
+
+- *INSERT*: Insere dados em uma tabela
+- *UPDATE*: Atualiza dados em uma tabela
+- *DELETE*: Exclui dados de uma tabela
+
+*Comandos de Definição de Dados*
+
+- *CREATE TABLE*: Cria uma nova tabela
+- *ALTER TABLE*: Altera a estrutura de uma tabela
+- *DROP TABLE*: Exclui uma tabela
+
+*Comandos de Controle de Acesso*
+
+- *CREATE USER*: Cria um novo usuário
+- *GRANT*: Concede permissões a um usuário
+- *REVOKE*: Revoga permissões de um usuário
+
+*Exemplos de Subconsultas*
+
+- `SELECT * FROM tabela WHERE coluna IN (SELECT coluna FROM outra_tabela)`
+- `SELECT * FROM tabela WHERE EXISTS (SELECT 1 FROM outra_tabela WHERE condição)`
+- `SELECT * FROM tabela WHERE coluna = ANY (SELECT coluna FROM outra_tabela)`
+
+Lobinho, esses são os principais métodos do PostgreSQL até a parte de consultas, incluindo subconsultas. Se precisar de mais detalhes ou tiver alguma dúvida, é só perguntar! 😊
